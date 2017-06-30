@@ -1,0 +1,40 @@
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+    " let Vundle manage Vundle, required
+    Plugin 'VundleVim/Vundle.vim'
+
+    " Sublime-Text like color scheme:
+    " https://github.com/tomasr/molokai
+    Plugin 'tomasr/molokai'
+
+        Plugin 'bling/vim-airline'
+        Plugin 'vim-airline/vim-airline-themes'
+        Plugin 'kien/ctrlp.vim'
+        Plugin 'altercation/vim-colors-solarized'
+        Plugin 'WolfgangMehner/vim-plugins'
+        Plugin 'morhetz/gruvbox'
+        Plugin 'powerline/fonts'
+        Plugin 'vim-scripts/AnsiEsc.vim'
+        Plugin 'sjl/gundo.vim'
+        Plugin 'godlygeek/tabular'
+        Plugin 'vim-scripts/taglist.vim'
+        Plugin 'stephpy/vim-yaml'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+
+filetype plugin indent on    " required
+
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
